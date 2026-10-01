@@ -1,0 +1,132 @@
+
+h1{
+    color: rgb(255, 0, 21);
+}
+body{
+    color: #3300fffe;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+body {
+  
+   text-align: center;
+}
+table {
+
+   margin: auto;
+}
+ body {
+	background-color: #AEBDCA;
+	}
+       hr {
+	background-color:white;
+	border-style:none;
+	}
+hr{
+    border-color:palegreen ;
+    border-top-style:dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 100%;
+}
+bg-profile{
+     background-color: #e5c134;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0fd03c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #e90d0d; 
+}
+/* การตั้งค่าพื้นฐาน */
+body {
+  font-family: 'Sarabun', Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* --- ตอบโจทย์: Challenge รูปกับ Text ห่างกันได้อย่างไร? --- */
+/* แก้ด้วยการใส่ cellspacing หรือ padding ที่ cell ของตาราง/ระยะห่างรูปภาพ */
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.profile-img-td {
+  width: 150px;
+  padding-right: 30px; /* ใช้ padding-right ทำให้รูปกับข้อความห่างกัน */
+}
+
+/* ตอบโจทย์: รูป profile เป็นวงกลม */
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%; /* กำหนดให้เป็นวงกลม */
+  object-fit: cover;
+}
+
+.profile-text-td h1 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+/* ตารางประสบการณ์การทำงาน */
+.experience-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.experience-table th, .experience-table td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.experience-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* ตาราง Skills (4 Column) */
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skills-table td {
+  padding: 6px 12px;
+  width: 25%; /* แบ่งเป็น 4 คอลัมน์เท่าๆ กัน */
+}
+
+/* ส่วนของ Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<html lang="th">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J.Changabe</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -27,10 +29,114 @@
         ประสบการณ์มีน้อยมากๆ ต้องหาข้อมูลที่เกี่ยวข้อง และกับไปฝึกเขียนทำความเข้าใจกับเนื้อหาที่อาจารย์สอนอยู่เป็นประจำ
         <br />
         <hr>
-        <a href="https://fastwork.co/">&emsp;&emsp;ค้นไท๊ยน้าร๊ากกกกกกกก</a> <br>
-        <img  src="./5.png" alt="this is Jay image">
+        <a href="https://fastwork.co/">&emsp;&emsp;ค้นไท๊ยน้าร๊ากกกกกกกก</a> 
+        <br>
+        <img src="./5.png" alt="this is Jay image" class="bg-profile">
+    <p>
+        <a href="contact.html" class="btn">ติดต่อเรา (Contact Us)</a>
+    </p>
 
+    <!-- 1. ส่วน Profile: รูปวงกลม + ข้อความ จัด Layout ด้วย Table -->
+  <table class="profile-table">
+    <tr>
+      <td class="profile-img-td">
+        <!-- รูปโปรไฟล์วงกลม -->
+        <img src="Jay.jpeg" alt="Profile Image" class="profile-img">
+      </td>
+      <td class="profile-text-td">
+        <h1>นายเจษฎา ช่ญกระบี่</h1>
+        <p><strong>ตำแหน่ง:</strong> AI ENGINEER</p>
+        <p><strong>สาขาวิชา:</strong> CAI</p>
+        <p><strong>สถาบันการศึกษา:</strong> PIM</p>
+      </td>
+    </tr>
+  </table>
 
+  <hr>
+
+  <!-- 2. สิ่งที่ชอบทาน 3 อย่าง (ใช้ ul หรือ ol) -->
+  <section>
+    <h2>สิ่งที่ชอบทาน 3 อย่าง</h2>
+    <ul>
+      <li>ข้าวผัด</li>
+      <li>ชาบู</li>
+      <li>ราชาผลไม้ต่างๆ</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- 3. About me - ประวัติสั้น ๆ -->
+  <section>
+    <h2>About me</h2>
+    <p>สวัสดีครับ ผมเป็นคนที่สนใจด้านการพัฒนาเว็บไซต์และการเขียนโปรแกรม มีความมุ่งมั่นที่จะเรียนรู้เทคโนโลยีใหม่ๆ อยู่เสมอ</p>
+  </section>
+
+  <hr>
+
+  <!-- 4. Experience & ประสบการณ์การทำงาน (ตาราง) -->
+  <section>
+    <h2>Experience (ประสบการณ์การทำงาน)</h2>
+    <table border="1" class="experience-table">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Work Place</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2018 - 2021</td>
+          <td>ปวช. PAT</td>
+        </tr>
+        <tr>
+          <td>2021-2023</td>
+          <td>Supermarket Manager</td>
+        </tr>
+        <tr>
+          <td>2025/td>
+          <td>Navy personnel</td>
+        </tr>
+        <tr>
+          <td>2025 - Present</td>
+          <td>Currently studying at PIM</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- 5. ส่วนของ Skill และ ระดับพลัง ใช้ Table 4 Columns -->
+  <section>
+    <h2>Skills</h2>
+    <table class="skills-table">
+      <tr>
+        <td>Java Programming</td>
+        <td>⭐⭐⭐</td>
+        <td>English</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+        <td>⭐⭐⭐</td>
+        <td>日本語</td>
+        <td>⭐</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- 6. ส่วนของ Footer ใส่ Link Github และ contact.html -->
+  <footer>
+    <p>
+      <a href="https://github.com/jatsada141415" target="_blank">GitHub</a> | 
+      <a href="contact.html">Contact Us (ติดต่อเรา)</a>
+    </p>
+  </footer>
+
+<a href="#">กลับไปด้านบน</a><br>
 </body>
 
 </html>

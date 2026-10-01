@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ติดต่อเรา</h2>
+    
+
+<form action="submit_form.php" method="POST" class="contact-form">
+  <!-- ช่องกรอกชื่อ -->
+  <div>
+    <label for="name">ชื่อ-นามสกุล:</label><br>
+    <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ" required>
+  </div>
+
+  <br>
+
+  <!-- ช่องกรอกอีเมล -->
+  <div>
+    <label for="email">อีเมล:</label><br>
+    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+  </div>
+
+  <br>
+
+  <!-- ช่องกรอกหัวข้อ -->
+  <div>
+    <label for="subject">หัวข้อข้อความ:</label><br>
+    <input type="text" id="subject" name="subject" placeholder="ระบุหัวข้อ" required>
+  </div>
+
+  <br>
+
+  <!-- ช่องกรอกข้อความ -->
+  <div>
+    <label for="message">ข้อความ:</label><br>
+    <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
+  </div>
+
+  <br>
+
+  <!-- ปุ่มส่งข้อมูล -->
+  <button type="submit" class="btn">ส่งข้อความ</button>
+</form>
+    
+</body>
+</html>
